@@ -1,6 +1,8 @@
 # 无限轮播组件
 以面向对象的方式实现无线轮播效果组件
 
+预览地址：https://evenyao.github.io/carousel-jQuery/
+
 ## 逻辑图
 我们的demo轮播为四张图，如有多张图，逻辑是一样的
 
