@@ -1,0 +1,80 @@
+.carousel {
+  position: relative;
+  width: 320px;
+  height: 200px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.carousel ul,
+.carousel li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel .img-ct {
+  position: absolute;
+  /* width: 1280px; */
+  /* 该宽度不能写死，要通过js进行计算后得到 */
+}
+.carousel::after,
+.carousel .img-ct::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.carousel .img-ct>li {
+  float: left;
+}
+.carousel .img-ct img {
+  width: 320px;
+  height: 200px;
+}
+.carousel .arrow {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-top: -15px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.carousel .arrow:hover {
+  opacity: 0.8;
+}
+.carousel .pre {
+  left: 10px;
+}
+.carousel .next {
+  right: 10px;
+}
+
+.carousel .buttons {
+  position: absolute;
+  /* border: 1px solid red; */
+  bottom: 10px;
+  width: 100%;
+  z-index: 1;
+  font-size: 0;
+  text-align: center;
+}
+.carousel .buttons li {
+  display: inline-block;
+  width: 30px;
+  height: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.carousel .buttons li:hover {
+  opacity: 0.8;
+}
+.carousel .buttons li.active {
+  background-color: #ccc;
+}
