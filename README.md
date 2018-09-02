@@ -4,7 +4,7 @@
 预览地址：https://evenyao.github.io/carousel-jQuery/
 
 ## 逻辑图
-我们的demo轮播为四张图，如有多张图，逻辑是一样的
+我们的demo轮播为四张图，如有多张图，逻辑相同
 
 当初始化之前，CSS中如果撤除 `overflow: hidden;` ，即可看到该样式，即四张图排列在一起（此时容器的宽度已经通过JS计算得到）
 
