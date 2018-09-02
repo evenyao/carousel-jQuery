@@ -16,6 +16,7 @@
 
 ![](https://upload-images.jianshu.io/upload_images/12904618-f7d05ade58b9e9bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+[JS源码](https://github.com/evenyao/carousel-jQuery/blob/master/main.js)
 
 ## 原理效果
 
