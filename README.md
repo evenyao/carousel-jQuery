@@ -35,4 +35,4 @@
 
 ## 拓展
 在进行 `Vuejs` 的学习过程中，重新使用构建了该组件，并在 `Vuejs` 中使用。
-详情查看[GearCase UI](https://github.com/evenyao/GearCase)
+详情查看 [GearCase UI](https://github.com/evenyao/GearCase) 库中的 [slides 组件](https://gearcase-ui.cn/components/datashow/#slides-%E8%BD%AE%E6%92%AD%E5%B9%BB%E7%81%AF%E7%89%87)。
