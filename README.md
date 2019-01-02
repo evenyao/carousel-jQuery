@@ -1,5 +1,5 @@
-# 无限轮播组件
-以面向对象的方式实现无线轮播效果组件
+# jQuery 轮播组件
+以面向对象的方式实现轮播效果组件
 
 预览地址：https://evenyao.github.io/carousel-jQuery/
 
@@ -32,3 +32,7 @@
 `mouseover` 时：停止自动轮播
 
 `mouseout` 时：重新开始自动轮播
+
+## 拓展
+在进行 `Vuejs` 的学习过程中，重新使用构建了该组件，并在 `Vuejs` 中使用。
+详情查看[GearCase UI](https://github.com/evenyao/GearCase)
